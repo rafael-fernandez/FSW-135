@@ -1,0 +1,326 @@
+body {
+  background-color: honeydew;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+nav > a 
+{
+  border: 3px solid blue;
+  border-radius: 25%;
+  width: 5%;
+  padding: 5px;
+  margin: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  color: crimson;
+  background-color: honeydew;
+  opacity: 85%;
+}
+
+#home 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  text-decoration: underline 3px;
+  color: blue;
+}
+
+#posted 
+{
+  text-decoration: underline 3px;
+  margin-bottom: -1px;
+  color: blue;
+}
+
+#issuesPosted 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  color: yellow;
+}
+
+.userPostings 
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: yellow;
+}
+
+#profileInfo 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: underline;
+  color: beige;
+}
+
+
+#postButton 
+{
+  margin: 5px;
+  border-radius: 50%;
+  color: blue;
+}
+
+#postsDescription 
+{
+  margin-top: 5px;
+}
+
+
+
+.Posters 
+{
+  justify-content: center;
+  align-items: center;
+  border: 2px solid blue;
+  background-color: bisque;
+  border-radius: 50%;
+  padding: 5px;
+  opacity: 80%;
+}
+
+.issueSpace 
+{
+  margin: 5px;
+  border-radius: 50%;
+  color: blue;
+}
+
+.StreamIssue 
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: red;
+}
+
+
+
+.votersButton 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid yellow;
+  background-color: bisque;
+  border-radius: 50%;
+  padding: 5px;
+  opacity: 80%;
+
+}
+
+.voted 
+{
+  text-align: center;
+  border-radius: 50%;
+  align-items: center;
+  color: red;
+}
+
+.liked 
+{
+  margin-top: -2px;
+  margin-bottom: -10px;
+  color: beige;
+}
+
+.disliked 
+{
+  color: red;
+}
+
+.prof_img 
+{
+  padding: 30px;
+  text-decoration: underline;
+  text-align: center;
+  border-radius: 50%;
+  text-size-adjust: 200px;
+  width: 160px;
+  height: auto;
+}
+
+.userName 
+{
+  text-align: center;
+  margin-top: -30px;
+  padding-bottom: 20px;
+  color: yellow;
+}
+
+.streamText 
+{
+  padding: -30px;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: -40px;
+  color: yellow;
+}
+
+#signUp-Header 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  text-decoration: underline 2px;
+  margin-bottom: -1px;
+  color: yellow;
+}
+
+
+#register 
+{
+  margin-bottom: 5px;
+  color: yellow;
+}
+
+
+#profilepicture 
+{
+  margin-bottom: 5px;
+  width: 180px;
+  height: auto;
+}
+
+.profilepicture 
+{
+  border-radius: 50%;
+  width: 180px;
+  height: auto;
+}
+
+#login 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  text-decoration: underline 2px;
+  margin-bottom: -1px;
+  color: darkgreen;
+}
+
+#signUp 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+  color: yellow;
+}
+
+#userLogin 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  color: yellow;
+}
+
+#loginUser 
+{
+  margin-bottom: 5px;
+  color: yellow;
+}
+
+#loginUserPassword 
+{
+  margin-bottom: 5px;
+  color: yellow;
+}
+
+#loginButton
+ {
+  border-radius: 50%;
+  color: yellow;
+}
+
+#comments 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  text-decoration: underline 2px;
+  color: yellow;
+}
+
+#userPost 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  text-decoration: underline 2px;
+  color: yellow;
+}
+
+.addComments 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  text-decoration: underline 2px;
+  color: yellow;
+}
+
+#emptyComments 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  text-decoration: underline 2px;
+  color: yellow;
+}
+
+.comments 
+{
+  border-radius: 50%;
+  width: 180px;
+  height: auto;
+}
+
+#addComments 
+{
+  border-radius: 50%;
+  width: 100px;
+  height: auto;
+}
+
+.commentButton 
+{
+  padding: 5px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+  color: red;
+
+}
